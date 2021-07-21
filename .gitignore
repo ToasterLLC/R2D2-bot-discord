@@ -1,8 +1,6 @@
 node_modules/
-<<<<<<< HEAD
 .env
 /models 
 /commands/setlog.js
 /commands/argsi.js
-=======
->>>>>>> 40f519edee8de4247947ea011c908d22d1414d55
+package-lock.json
