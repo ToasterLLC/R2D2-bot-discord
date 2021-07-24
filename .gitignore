@@ -1,6 +1,4 @@
 node_modules/
 .env
-/models 
-/commands/mod/setlog.js
 /commands/dev/
 package-lock.json

@@ -22,7 +22,7 @@ module.exports = {
                     message.reply("Please provide one or two numbers.");
             }
         } else {
-            message.channel.send("Please provide numbers as arguments.")
+            message.channel.send("Please provide numbers as arguments.");
         }
     }
 }
