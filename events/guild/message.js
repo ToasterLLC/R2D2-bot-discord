@@ -8,7 +8,7 @@ module.exports = (Discord, client, message) => {
     const commandName = args.shift().toLowerCase();
     const command = client.commands.get(commandName);
 
-    if (commandName) {
+    if (command) {
         command.execute(client, message, args, Discord);
     }
 }
