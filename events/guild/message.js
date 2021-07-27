@@ -5,10 +5,11 @@ module.exports = (Discord, client, message) => {
     if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
     const args = message.content.slice(config.prefix.length).split(" ");
+    const butt = require("discord-buttons");
     const commandName = args.shift().toLowerCase();
     const command = client.commands.get(commandName);
 
     if (command) {
-        command.execute(client, message, args, Discord);
+        command.execute(client, message, args, butt, Discord);
     }
 }
